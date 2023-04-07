@@ -113,6 +113,7 @@ section {
 
 .who .description-1 p span{
     color: #ff0101;
+    text-decoration: line-through;
 }
 
 /*-- ======= About ======= --*/
@@ -171,6 +172,7 @@ section {
 .about .albums .info .card h2{
     margin-top: 20%;
     color: #ff0101;
+    text-decoration: line-through;
 }
 
 .about .albums .info .card .list-group{
