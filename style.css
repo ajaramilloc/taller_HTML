@@ -1,0 +1,220 @@
+p, h1, h2, h3, li {
+    font-family: 'Callejera', sans-serif;
+}
+
+.bi-spotify {
+    color: #1DB954;
+}
+
+.bi-instagram {
+    color: #d6249f;
+}
+
+/*-- ======= Section ======= --*/
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 90px;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  
+  .section-title p {
+    margin: 15px auto 0 auto;
+    font-weight: 600;
+  }
+
+/*-- ======= Hero ======= --*/
+
+.hero {
+    background: url(./Assets/hero.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
+}
+  
+.hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 118px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #fff;
+    font-family: 'Callejera', sans-serif;
+    line-height: 1.2;
+    text-decoration: line-through;
+}
+
+.hero .hero-container i {
+    font-style: normal;
+    color: #eee;
+    font-size: 100px;
+    
+}
+
+.hero .hero-container i:hover{
+    color: #ff0101;
+}
+
+.hero a {
+    margin-top: 8%;
+  }
+
+/*-- ======= Who ======= --*/
+
+.who {
+    background: #292929;
+}
+
+.who .section-title h2{
+    text-align: center;
+    color: #eee;
+    margin-bottom: 10%;
+}
+
+.who .description-1 p{
+    text-align: center;
+    color: #eee;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+
+.who .description-1 p span{
+    color: #ff0101;
+}
+
+/*-- ======= About ======= --*/
+
+.about {
+    background: #292929;
+}
+
+.about .section-title h2{
+    text-align: center;
+    color: #eee;
+    margin-bottom: 10%;
+}
+
+.about a {
+    text-decoration: none;
+}
+
+.about .card{
+    background-color: #292929;
+    border: 0;
+    justify-content: center;
+}
+
+.about .card .btn-spotify{
+    background-color: #1DB954;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 10%;
+    font-family: 'Callejera', sans-serif;
+}
+
+.about .card .btn-spotify .bi-spotify{
+    color: #292929; 
+}
+
+.about .albums{
+    margin-top: 10%;
+}
+
+.about .albums .info .card{
+    background: url(./Assets/anuel.jpeg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+}
+
+.about .albums .info .card .card-body{
+    background: #44e50e6d;
+}
+
+.about .albums .info .card h2{
+    margin-top: 20%;
+    color: #ff0101;
+}
+
+.about .albums .info .card .list-group{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.about .albums .info .card .list-group li{
+    color: #eee;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*-- ======= Contact ======= --*/
+
+.contact {
+    background: #292929;
+}
+
+.contact .section-title h2{
+    text-align: center;
+    color: #ff0101;
+    margin-bottom: 10%;
+    text-decoration: line-through;
+}
+
+.contact .form label{
+    color: #eee;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    font-size: 30px;
+    font-family: 'Callejera', sans-serif;
+  }
+
+.contact .btn {
+    margin-top: 5%;
+    background: #ff0101;
+    border: 0;
+    font-size: 40px;
+    font-family: 'Callejera', sans-serif;
+    color: #eee;
+  }
+
+  .contact .btn:hover {
+    color: #111;
+    background: #eee;
+  }
