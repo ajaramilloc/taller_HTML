@@ -225,3 +225,16 @@ section {
     color: #111;
     background: #eee;
   }
+
+/*-- ======= Footer ======= --*/
+
+footer {
+    background: #292929;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #eee;
+    font-size: 20px;
+}
